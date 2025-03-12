@@ -99,7 +99,6 @@ footer {
         transform: translateY(0);
     }
 }
-
 /* Layout for Intro Section */
 .intro {
     display: flex;
@@ -117,8 +116,10 @@ footer {
 }
 
 .profile-img {
-    width: 150px;
-    border-radius: 50%;
+    width: 200px; /* Aumenta el tamaño de la imagen */
+    height: 200px; /* Hace que sea cuadrada */
+    object-fit: cover; /* Mantiene proporciones sin deformar */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
     margin-bottom: 15px;
 }
 
