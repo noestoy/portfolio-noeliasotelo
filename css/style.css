@@ -39,7 +39,7 @@ header {
 }
 
 .navbar a:hover {
-    color: #ff6600; /* Accent color: Change to violet or green bottle if preferred */
+    color: #6a0dad; /* Violeta */
 }
 
 /* Add space at the top so content doesn't overlap */
@@ -56,7 +56,7 @@ body {
     margin: auto;
     padding: 150px 20px;
     min-height: 100vh;
-    background: #000000;
+    background: linear-gradient(to right, #000000 50%, #ffffff 50%);
     color: white;
     text-align: left;
     position: relative;
@@ -70,7 +70,7 @@ body {
 .hero-left h1 {
     font-size: 4em;
     font-weight: 800;
-    color: #ff6600; /* Accent color */
+    color: #6a0dad; /* Violeta */
     margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@ body {
     height: 450px;
     object-fit: cover;
     border-radius: 16px;
-    box-shadow: 0 10px 20px rgba(255, 102, 0, 0.4);
+    box-shadow: 0 10px 20px rgba(106, 13, 173, 0.4);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -104,18 +104,18 @@ body {
 .button {
     display: inline-block;
     padding: 16px 28px;
-    background-color: #ff6600;
+    background-color: #6a0dad;
     color: white;
     text-decoration: none;
     border-radius: 12px;
     font-size: 18px;
     font-weight: 700;
     transition: background 0.3s ease-in-out;
-    box-shadow: 0 5px 10px rgba(255, 102, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(106, 13, 173, 0.3);
 }
 
 .button:hover {
-    background-color: #cc5200;
+    background-color: #53008c;
 }
 
 /* CV Button - Green Bottle */
