@@ -3,48 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noelia Sotelo | Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Noelia Sotelo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Noelia Sotelo</h1>
-        <p>Data Analyst | Power BI | Big Data</p>
+        <div class="logo">Noelia Sotelo</div>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section class="intro">
-        <div class="left">
-            <img src="img/profile.jpg" alt="Noelia Sotelo" class="profile-img">
-            <br>
-            <a href="cv/CV-Noelia-Sotelo-Taboada.pdf" class="button" target="_blank">Download CV</a>
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Data Analyst & Power BI Expert</h1>
+            <p>Passionate about optimizing supply chains through advanced data analysis and visualization.</p>
+            <a href="cv/CV-Noelia-Sotelo-Taboada.pdf" download class="cv-button">Download CV</a>
         </div>
-        <div class="right">
-            <h2>About Me</h2>
-            <p>I am a data analyst with experience in Power BI, SQL, and Python. My focus is on optimizing supply chain management through advanced data analysis.</p>
+        <div class="hero-right">
+            <img src="img/noelia.jpg" alt="Noelia Sotelo" class="profile-img">
         </div>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Supply Chain Analysis with Power BI</h3>
-            <p>Interactive dashboard for optimizing inventory and logistics costs.</p>
+            <h3>Supply Chain Dashboard</h3>
+            <p>Developed an interactive Power BI dashboard to optimize inventory management.</p>
         </div>
         <div class="project">
-            <h3>Inventory Optimization with SQL</h3>
-            <p>Using SQL to improve demand forecasting and reduce waste.</p>
+            <h3>Data Quality Analysis</h3>
+            <p>Implemented ETL pipelines in Talend to clean and process large datasets.</p>
         </div>
-        <a href="#" class="button">View More Projects</a>
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>Connect with me on LinkedIn or send me an email.</p>
-        <a href="https://www.linkedin.com/in/noelia-sotelo-taboada-2ab060235" class="button" target="_blank">LinkedIn</a>
+        <p>Let's connect! Reach out via LinkedIn or email.</p>
     </section>
 
     <footer>
-        <p>&copy; Noelia Sotelo Taboada - Data Analyst | Portfolio</p>
+        <p>&copy; Noelia Sotelo Taboada. Data Analyst.</p>
     </footer>
 </body>
 </html>
