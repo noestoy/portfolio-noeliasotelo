@@ -40,13 +40,17 @@ header p {
 .left {
     flex: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-img {
-    width: 320px; /* Imagen más grande */
-    height: 320px;
+    width: 350px; /* Imagen más grande */
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 /* Right Side - About Me */
@@ -75,16 +79,16 @@ header p {
 
 /* CV Button - Smaller and Green */
 .cv-button {
-    padding: 6px 14px;
-    font-size: 12px;
+    padding: 8px 16px;
+    font-size: 14px;
     background-color: #0a3d62; /* Verde botella */
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s ease-in-out;
-    display: block;
-    margin: 10px auto 0;
-    width: 140px;
+    display: inline-block;
+    width: 160px;
+    text-align: center;
 }
 
 .cv-button:hover {
