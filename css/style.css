@@ -99,3 +99,47 @@ footer {
         transform: translateY(0);
     }
 }
+
+/* Layout for Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+/* Left Side - Profile Image & CV Button */
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Right Side - About Me */
+.right {
+    flex: 2;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
