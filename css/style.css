@@ -43,8 +43,8 @@ header p {
 }
 
 .profile-img {
-    width: 280px; /* Imagen más grande */
-    height: 280px;
+    width: 320px; /* Imagen más grande */
+    height: 320px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -53,6 +53,9 @@ header p {
 .right {
     flex: 1;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Button Styling */
@@ -72,15 +75,16 @@ header p {
 
 /* CV Button - Smaller and Green */
 .cv-button {
-    padding: 8px 16px;
-    font-size: 14px;
+    padding: 6px 14px;
+    font-size: 12px;
     background-color: #0a3d62; /* Verde botella */
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s ease-in-out;
-    display: inline-block;
-    margin-top: 10px;
+    display: block;
+    margin: 10px auto 0;
+    width: 140px;
 }
 
 .cv-button:hover {
