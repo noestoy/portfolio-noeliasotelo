@@ -8,7 +8,7 @@
   margin-top: 0;
   margin-bottom: 0;
   height: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/photo-1496065187959-7f07b8353c55.jpeg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hilos.jpg');
   background-position: 50% 50%, 50% 50%;
   background-size: cover, cover;
 }
@@ -957,7 +957,7 @@
     grid-auto-columns: 100%;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/photo-1536240690077-e2f548bc5405.jpeg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/ordenador.jpeg');
   background-size: cover, cover;
 }
 
