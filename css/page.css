@@ -45357,6 +45357,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 500;
   font-size: 0.875rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -45366,10 +45367,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -50px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
   }
 }
 
