@@ -1972,14 +1972,14 @@
 }
 
 .u-section-5 .u-group-1 {
-  min-height: 565px;
+  min-height: 695px;
   margin-top: 0;
   margin-bottom: 0;
   height: auto;
 }
 
 .u-section-5 .u-container-layout-1 {
-  padding: 0 30px;
+  padding: 0 30px 30px;
 }
 
 .u-section-5 .u-text-1 {
@@ -2138,10 +2138,6 @@
 
   .u-section-5 .u-group-1 {
     min-height: 1261px;
-  }
-
-  .u-section-5 .u-container-layout-1 {
-    padding-bottom: 30px;
   }
 
   .u-section-5 .u-gallery-1 {
